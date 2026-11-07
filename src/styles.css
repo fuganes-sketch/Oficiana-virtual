@@ -30,7 +30,7 @@ body {
 .chips { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; }
 .chip {
   display: inline-flex; align-items: center; gap: 6px; white-space: nowrap;
-  background: #1b1410; color: var(--text); border: 1px solid var(--line);
+  background: #1b1417; color: var(--text); border: 1px solid var(--line);
   padding: 4px 9px; font: inherit; font-size: 11px; cursor: pointer; border-radius: 3px;
 }
 .chip:hover { border-color: #5a4630; }
