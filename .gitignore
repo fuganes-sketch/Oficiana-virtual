@@ -1,0 +1,42 @@
+# Dependencias
+node_modules/
+
+# Build
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Instrucciones reales de los agentes (con datos del negocio y del dueño).
+# Lo que se sube es la plantilla en blanco: agents.example/
+agents/
+
+# Datos privados de la oficina (se generan al usarla: chats, sesiones de los agentes,
+# bandeja de pendientes, reportes diarios, config con tu mail, uso del plan, etc.)
+data/*
+# ...salvo lo que sirve de base del proyecto. Si el repo es público y no querés
+# mostrar la lista de precios o la marca, borrá estas dos líneas.
+!data/precios/
+!data/marca/
+
+# Variables de entorno y claves
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor y sistema operativo
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
